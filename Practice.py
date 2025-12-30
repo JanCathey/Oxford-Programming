@@ -2,7 +2,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-r_values = np.linspace(0, 40, 100)
+r_values = np.linspace(0, 30, 100)
 # Generates a sample RDF using a Gaussian function
 
 def r3s(r):
@@ -91,3 +91,4 @@ plt.ylabel('Radial Distribution Function RDF(r)')
 plt.legend()
 plt.grid()
 plt.show()
+
